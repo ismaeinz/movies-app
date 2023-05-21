@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--primary);
+  padding: 10px 0;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: var(--while);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.header a:header {
+  opacity: .7;
+}
+
+.header .logo a {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.header .nav-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+@media(max-width:575px) {
+  .header .nav-links li {
+    margin: 0 5px;
+  }
+}
+
+.header .nav-links li:last-child {
+  margin-right: 0;
+
+}
